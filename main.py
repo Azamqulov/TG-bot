@@ -141,7 +141,7 @@ def admin_callback_handler(call):
             
             for i, student_doc in enumerate(students[:10], 1):  # Faqat birinchi 10 ta ko'rsatiladi
                 student_data = student_doc.to_dict()
-                student_text += f"{i}. {student_data.get('name', 'Noma\'lum')}\n"
+                student_text += f"{i}. {student_data.get('name', 'Nomalum')}\n"
                 student_text += f"   📱 Tel: {student_data.get('phone', 'Noma\'lum')}\n"
                 student_text += f"   📚 Kurs: {student_data.get('course', 'Noma\'lum')}\n\n"
             
