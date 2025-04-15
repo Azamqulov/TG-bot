@@ -1,14 +1,13 @@
 {
-    "type": "service_account",
-    "project_id": "smart-academy-786d9",
-    "private_key_id": "5479795102043f15d6e9d266612eb9a19f9fdae8",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+OWqGqkcOZnrd\n0ViJ8WNiStb9meFzCvLqfuU/0xpML35a+MDdsjMbxxXvm0s4Mgt6oq4iXcSqGqHB\nfJnDZHl3m9lK28JHN8wVSP9Bf8fTDwEiGPTAoLcLeyEK/OZoiZHj7p7IOoymw3+w\n7pFGknpgfEF5nWXhaNU0YqafNz7Mx8IG3Lh0Pnw6eM5pJ0qnzowBYrex8MDWjPHt\nmsuwNHZCna1/cy4A9H1WZB6O5x4url61qwIoLhewShDZCn8m2wXBuHLOtTLwdLig\ntTRpkM7/04AtYY6LTDg7Es7AKdlqcRfu8VERIokuWx38mVByO1J1wfO/n7o0kf4a\nM+HylVQVAgMBAAECggEAISWoJmctkpjQ+C4um3rwsoQQCojx/DYANlR+ZizG/Fea\nUQffs8IFneWHMQWCifxOe8Q1S8/DIVEatriboqyzbeA+cQjyRa63ZU4fDK7Thzeq\nHuLyY06eFuYRz/RZwgWW4n0GNiXdtIGEkrQ/pGiJ4p5EWojO5AR8gnBeUIgz7ULk\neQe+z6Vq/cprGeXipgFzOsS5eJrGRmfk48m9aakiFKFdYKutJfQWKjdLL/jGS5sW\ny6H65bR9FXlbpoOISeHtb3D26Xqd44ThuL2vs2tX/WJ6GOntbVv1pkVdRU+KEH7m\nXcgpVnPOm/Fi1NlgtzSoQCSUQWoKFmUKUA6NVY6JgQKBgQD1ZxgZrVfe3rB9a5F6\nEGnRCBQvcfNAZJFxP+3BWuU86RRgPtN/DPOdwNEc/lqQaGBRTlGS+OWx0nLfmVvI\nZpU+EJh5aWW5IFFnAh0Iv8aDpZdAuC7LsYdazYOeixoqR3LF3s3GCgC4grW7WZ2n\nBzVQubWAXtLKDub04qJo8hTJmQKBgQDGcFRFTXx6rM9hTYvZeIu1OvG4o/a2Tw2h\nl+riQ/JVpSNlDuyqs8YjgBxvPoEdgLErpnUsqJ3JzTKJwNJWr4t3f6oZQzPfW7AR\nj4sore+y5t4y1BDQfv6iBKu2eAZId4ctpJI2UskcQ/2lNZWV24ZsJtLgGY2k6BYV\nNTevP4qD3QKBgFU5gH0qXiHgZJqqCNPDb3xQufHgOQJb6sbR1NgZoRMOPy1NpFWz\nQce/duAC1aDhHtIdyOap2dtvosVUlTN7rMjpKoq/t7wbJSoI6dxn/aEqmOS5Ekdb\nWA6I4PTmiie0uH9PaVclkiqB+mseLEodjr6CQC5cwAe8NSlGq/CWYfHBAoGBAIgv\ndRYuzHwgdx5vKsgv+6l/735pQJrzfAZnjTKFsR1n/PeRG4k3YYbhmCIcgl3uASlU\nztu8SLXDFqkFZRVK2mtDeUhnH4VtllMm8TkUzgk4ekvl0DhWv4gProzGqIE5TtNb\nO2D+xbiZTM0CDkvPYdx9dIGJ5/TBts4NPM8Py48dAoGAIBs/ImgsVOk/YSWED4i9\njTtwWVuF97kBHDjBxHUogBM2JWmr+1UuETvsIcGSbGIxYTNQGN+uGDEOSuvBDI+u\nVXK7SGYbXettQhPJW20QlNVLKaGSnZQQujflj4D+FkxgeVfUhotH7DwXfzYuaT0O\nE866mEUnSHzNQw7HKt18rvM=\n-----END PRIVATE KEY-----\n",
-    "client_email": "firebase-adminsdk-2ylr4@smart-academy-786d9.iam.gserviceaccount.com",
-    "client_id": "108083989064784266279",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-2ylr4%40smart-academy-786d9.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-  }
-  
+  "type": "service_account",
+  "project_id": "smart-academy-786d9",
+  "private_key_id": "4de4d4313afcbf0a4e5df7eb86033493764c423b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDLjRwMRxY2mKSv\n4bN3/lMX90yrWpnHZ+Ll11Zz8efpfDjoTm0s3Swl4UtPgErVMn5IxrT8PleJqfOT\nIsK9KoUVlqMQcIdxImx13TE6GSMJzIG9CEkkkZxG/G3ZwWEV6ytG4rQZHK1Gg83l\nsBmpoasK+bDR2RMrS4OzpUBhr8bYxITjJSJTWxWNViQGhQ7O1LmC70Wc9O5Is/rF\nUFgrsfHniD2UUG/a1NFch6JfOKz1ImpC4RzSbvoHGjYB1cTG4af98YmKH2jU9wo4\n0Fr8sVoqc9Hh+ghynPo+MbcHii2H3Wv625limIxhhPgwAjeACxZ2qSXv9fhC1ff6\nd/1BqZz3AgMBAAECggEAMBt0ko5GeLbQzWS5ZtWry9E9xI3QJGmwHYQsQZDdr7gV\nNwo6EU1gfr9lbi+y//pEEG0uHyOYysdo8tBXWB/xfi2w8lS2Hg31tlGFreZ8+nbj\n/sozhzoGxlwoljt295gyDTnNONYnObAy/GMHXakA5MIogSAdwLDDOrUGp0/E3jv/\n3mKTZJqWHKFFMclP+yjJGidm9z4vzni7VqBXCaxupt3dKX+h/ip//gRrV1QyEfgO\n8aEKvu40BS9bP4r8ce3on0xtXNQlZG4B7voe1HfjMK3qL7kM4qkcyDC4l+gPkvIC\nnXITOyWVduapjcC4RT8taxDIA3Hy1n4B7PaqvUKPoQKBgQDxWUZe4+IaN4l1Y30/\nqA3OFD9O/VcMNAZDtkFSfoXoTcGd17r+ZBHzqmRgtu9QJyWnndGFEyAELmOKnvJh\n6CmHvE3fXTWRcbgyrENVB5mCu6a6KzcBVaI3QFkzk5qysTljRJ20TRrEO+b9yjq4\nMpoZB3agtf6J6YO3FzmRD6hw8QKBgQDX6G9rPWS9ZtVcuU0644dujIMFq3K6YvIT\n0uLVDR//9cLr12lwHKjhr+IUydRKAn6FoQt81yR30LD6C0UqS+m3jIrx1gShHgDw\nbHgrFfSG8wWz6H2AZj9gxy4IPmyJx47FGvv0PIAJOcMw+3N4IUWCvnpqULncL47W\ncuCueSbsZwKBgBE+6tte90oeS9E6kbmZvZrLMZboXW7+zK/L9zD434KxA7POtYr2\nBZ5ev5t1lvYoRfWLPmx+6FvEINLH9tPuLgGIAByE4Y4KDTp5urn5uAtyc0B8VArh\nXp0KGRWpZ3V7WnlwbsByfgYlraTW7Yk5/G7rbJuhRZX/PK05mKB3+PZRAoGAKIPb\ndJo+rzP+0bmL/oL3xQzlAUlc7BDpMEMgga5G1Pc/LpZrmLgoEMG6gQAmsASrzVOd\nHj4Y/8rPivxWbEt2fhUHdb4dfEZvEq6oFh22lyQ/a7Uy58dIGVcHElD0eR5TcjVQ\nFlLMC+8k66ojzuUfcBtiSVUAq4rZGPDRrKvbW/0CgYB+gb/99OcqasrNFN0p3LJS\nWdhkX3d/TtxLzjArZ/afW+aySwuUhKBEIk9LE7xu7jUVr4ev4Ia9XLkmjUtf2tbr\nkq0p9vv+t7CnwRbQBoLpaAIWQjSqCLwo3Nx7KS+NmUIkAC6ieyd+Qwz7mQGdesB+\nZeu49b3ZHA60VrjyWet1hg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-2ylr4@smart-academy-786d9.iam.gserviceaccount.com",
+  "client_id": "108083989064784266279",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-2ylr4%40smart-academy-786d9.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
