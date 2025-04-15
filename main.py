@@ -142,8 +142,8 @@ def admin_callback_handler(call):
             for i, student_doc in enumerate(students[:10], 1):  # Faqat birinchi 10 ta ko'rsatiladi
                 student_data = student_doc.to_dict()
                 student_text += f"{i}. {student_data.get('name', 'Nomalum')}\n"
-                student_text += f"   📱 Tel: {student_data.get('phone', 'Noma\'lum')}\n"
-                student_text += f"   📚 Kurs: {student_data.get('course', 'Noma\'lum')}\n\n"
+                student_text += f"   📱 Tel: {student_data.get('phone', 'Nomalum')}\n"
+                student_text += f"   📚 Kurs: {student_data.get('course', 'Nomalum')}\n\n"
             
             if len(students) > 10:
                 student_text += f"... va yana {len(students) - 10} ta o'quvchi"
@@ -173,9 +173,9 @@ def admin_callback_handler(call):
                 amount = payment_data.get('amount', 0)
                 total += amount
                 
-                payment_text += f"{i}. {payment_data.get('student_name', 'Noma\'lum')}\n"
+                payment_text += f"{i}. {payment_data.get('student_name', 'Nomalum')}\n"
                 payment_text += f"   💵 Summa: {amount:,} so'm\n"
-                payment_text += f"   📅 Sana: {payment_data.get('date', 'Noma\'lum')}\n\n"
+                payment_text += f"   📅 Sana: {payment_data.get('date', 'Nomalum')}\n\n"
             
             payment_text += f"💰 Jami: {total:,} so'm\n"
             
@@ -272,7 +272,7 @@ def courses_menu(message):
         
         for course_doc in courses:
             course_data = course_doc.to_dict()
-            course_name = course_data.get('name', 'Noma\'lum kurs')
+            course_name = course_data.get('name', 'Nomalum kurs')
             btn = types.InlineKeyboardButton(course_name, callback_data=f"course_{course_doc.id}")
             markup.add(btn)
         
@@ -350,7 +350,7 @@ def process_phone(message):
     
     for course_doc in courses:
         course_data = course_doc.to_dict()
-        course_name = course_data.get('name', 'Noma\'lum kurs')
+        course_name = course_data.get('name', 'Nomalum kurs')
         markup.add(types.KeyboardButton(course_name))
     
     markup.add(types.KeyboardButton("Boshqa"))
@@ -435,9 +435,9 @@ def course_details(call):
             return
         
         # Kurs haqida ma'lumot
-        course_text = f"📚 {course_data.get('name', 'Noma\'lum kurs')}\n\n"
+        course_text = f"📚 {course_data.get('name', 'Nomalum kurs')}\n\n"
         course_text += f"📝 Tavsif: {course_data.get('description', 'Tavsif mavjud emas')}\n\n"
-        course_text += f"⏱ Davomiyligi: {course_data.get('duration', 'Noma\'lum')}\n"
+        course_text += f"⏱ Davomiyligi: {course_data.get('duration', 'Nomalum')}\n"
         course_text += f"💰 Narxi: {course_data.get('price', 0):,} so'm"
         
         # Tugmalar
@@ -468,7 +468,7 @@ def back_to_courses(call):
         
         for course_doc in courses:
             course_data = course_doc.to_dict()
-            course_name = course_data.get('name', 'Noma\'lum kurs')
+            course_name = course_data.get('name', 'Nomalum kurs')
             btn = types.InlineKeyboardButton(course_name, callback_data=f"course_{course_doc.id}")
             markup.add(btn)
         
